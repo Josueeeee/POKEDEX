@@ -1,0 +1,373 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.4285em;
+}
+
+.App {
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem;
+}
+.log{
+  width: 600px;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  flex-wrap: wrap;
+}
+
+.packeballbg{
+  position: fixed;
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+  z-index: -1;
+  right: -90px;
+  top: -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+  animation-direction: reverse;
+}
+
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  opacity: 60%;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  position: relative;
+  width: 200px;
+}
+.input{
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 12rem;
+}
+
+.button{
+  position: absolute;
+  top: 2;
+  bottom: 0;
+  right: -28px;
+  height: 100%;
+  width: 50px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  background: #E60012;
+  color: #fff;
+}
+
+.pokedex{
+  margin-bottom: 2rem;
+  background-color: rgb(249, 0, 0);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+}
+
+.bgblack{
+  position: absolute;
+ background-color: black;
+  z-index: -1;
+  right: 0px;
+  top: 65px;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 8px;
+}
+
+.circleBlack{
+  position: absolute;
+  background-color: black;
+   z-index: 1;
+   right: 50%;
+   border-radius: 50%;
+   top: 60%;
+   height: 120px;
+   width: 120px;
+}
+.circleWithe{
+  position: absolute;
+  background-color: white;
+   z-index: 2;
+   right: 51%;
+   border-radius: 50%;
+   top: 70%;
+   height: 90px;
+   width: 90px;
+}
+
+
+.close{
+   cursor: pointer;
+  background: #E60012;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+
+
+.pokemonCards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.wl{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+  color: white;
+}
+
+.search{
+  border-radius: 0.3rem;
+  margin: 10px;
+  border: none;
+  box-shadow: 1px 2px 8px 1px gray;
+}
+.btsearch{
+  border: none;
+  background-color: gray;
+  color: white;
+  box-shadow: 1px 2px 8px 1px gray;
+  padding: 0.3rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.divselect{
+  display: flex;
+  justify-content: center;
+}
+
+.select{
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  margin: 10px;
+  border: none;
+  box-shadow: 1px 2px 8px 1px gray;
+}
+
+.card{
+  width: 15rem;
+  padding: 1rem;
+  margin: 0rem 1rem 1rem 1rem; 
+  text-align: center;
+  background-color: #E60012;
+  position: relative;
+  cursor: pointer;
+  border-radius: 1rem;
+  
+}
+.card h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.card p{
+  font-family: 'Roboto Mono', monospace;
+  color: gray;
+}
+
+
+.pokemonimg{
+  position: relative;
+  margin: 0rem;
+  z-index: initial;
+  filter: drop-shadow(1px 10px 10px gray);
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-family: 'Yantramanav', sans-serif;
+}
+h3{
+  margin-bottom: 0;
+}
+p{
+  margin: 0;
+}
+.bg{
+ background-color: white;
+ border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.background{
+  position: absolute;
+  top: 166px;
+  bottom: 30;
+  right: 16px;
+  height: 18%;
+  width: 88%;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  background: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+
+.numberpages{
+  text-align: center;
+  padding: 2rem;
+}
+.numberpages button{
+  border: none;
+  margin: 3px;
+  padding: 1rem;
+  color: #E60012;
+  background-color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.numberpages button:hover{
+  background-color: #E60012;
+  color: white;
+}
+.numberpages button:focus{
+  background-color: #E60012;
+  color: white;
+}
+
+
+
+
+@media only screen and (max-width: 715px) {
+  .log{
+    width: 300px;
+  }
+  
+.bgblack{
+  position: absolute;
+ background-color: black;
+  z-index: -1;
+  right: 0px;
+  top: 120px;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 8px;
+}
+
+.circleBlack{
+  position: absolute;
+  background-color: black;
+   z-index: 1;
+   right: 10%;
+   border-radius: 50%;
+   top: 70%;
+   height: 120px;
+   width: 120px;
+}
+.circleWithe{
+  position: absolute;
+  background-color: white;
+   z-index: 2;
+   right: 11.5%;
+   border-radius: 50%;
+   top: 75%;
+   height: 100px;
+   width: 100px;
+}
+
+}
+
+
+@media only screen and (max-width: 464px) {
+  .log{
+    width: 300px;
+  }
+  
+.bgblack{
+  position: absolute;
+ background-color: black;
+  z-index: -1;
+  right: 0px;
+  top: 150px;
+  height: 65px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 8px;
+}
+
+.circleBlack{
+  position: absolute;
+  background-color: black;
+   z-index: 1;
+   right: 5%;
+   border-radius: 50%;
+   top: 85%;
+   height: 70px;
+   width: 70px;
+}
+.circleWithe{
+  position: absolute;
+  background-color: white;
+   z-index: 2;
+   right: 7.5%;
+   border-radius: 50%;
+   top: 90%;
+   height: 50px;
+   width: 50px;
+}
+}
+
+.body{
+  margin: 0;
+}
+.character{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.character h3{
+  margin: 0%;
+}
+
+
+.grid-item{
+  width: 90%;
+  padding: 1rem;
+ flex-wrap: wrap;
+}
+
+.bgwhite{
+  background: #fff;
+  margin: 1rem;
+}

@@ -1,0 +1,23 @@
+{
+
+        "fire": "radial-gradient(circle, rgba(251,72,63,1) 0%, rgba(252,170,70,1) 100%)",
+        "flying": "radial-gradient(circle, rgba(186,74,0,1) 0%, rgba(79,37,1,1) 100%)",
+        "fighting": "radial-gradient(circle, rgba(1,86,251,1) 0%, rgba(0,245,255,1) 100%)",
+        "poison": "radial-gradient(circle, rgba(153,0,208,1) 0%, rgba(243,0,255,1) 100%)",
+        "ground": "radial-gradient(circle, rgba(250,196,0,1) 0%, rgba(201,147,8,1) 100%)",
+        "rock": "radial-gradient(circle, rgba(236,234,228,1) 0%, rgba(135,133,133,1) 100%)",
+        "bug": "radial-gradient(circle, rgba(97,241,4,1) 0%, rgba(220,255,0,1) 100%)",
+        "ghost": "radial-gradient(circle, rgba(176,207,203,1) 0%, rgba(200,200,200,1) 100%)",
+        "steel": "radial-gradient(circle, rgba(65,65,65,1) 0%, rgba(200,200,200,1) 100%)",
+        "water": "radial-gradient(circle, rgba(0,241,210,1) 0%, rgba(0,173,250,1) 100%)",
+        "grass":"radial-gradient(circle, rgba(199,252,12,1) 0%, rgba(54,187,3,1) 100%)",
+        "electric": "radial-gradient(circle, rgba(252,196,12,1) 0%, rgba(255,247,0,1) 100%)",
+        "psychic": "radial-gradient(circle, rgba(237,12,252,1) 0%, rgba(255,0,155,1) 100%)",
+        "ice": "radial-gradient(circle, rgba(12,252,205,1) 0%, rgba(0,245,255,1) 100%)",
+        "dragon": "radial-gradient(circle, rgba(252,184,12,1) 0%, rgba(255,0,0,1) 100%)",
+        "dark": "radial-gradient(circle, rgba(175,175,175,1) 0%, rgba(0,0,0,1) 100%)",
+        "fairy": "radial-gradient(circle, rgba(0,252,236,1) 0%, rgba(250,255,0,1) 100%)",
+        "unknown": "radial-gradient(circle, rgba(206,0,252,1) 50%, rgba(0,160,255,1) 91%)",
+        "shadow": "radial-gradient(circle, rgba(207,205,205,1) 50%, rgba(200,200,194,1) 91%)"
+    
+}
