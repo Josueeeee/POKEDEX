@@ -42,45 +42,40 @@ const PokemonDetails = () => {
 
     return (
         <div className='character' style={{ background: colorCondision }}>
-
+            <div className='packeballbg'> <img src="./public/pokeball.png" className='rotate' /></div>
             <div className='grid-item'>
                 <button className='close ' onClick={() => navigate("/pokedex")}><i className="fa-solid fa-circle-arrow-left"></i></button>
-                <div className='bgwhite'>
-                <p>height
-                    <br /><b>{character.height} </b></p>
-                <p>weight
-                    <br /><b>{character.weight} </b></p>
-
-                <div>
-                    <p>type
-                        <br /> {character.types?.map(item => (
-                            <b key={item.type.name}>{item.type.name} </b>
-                        )
-                        )}</p>
-                    <p>abilities
-                        <br /> {character.abilities?.map(item => (
-                            <b key={item.ability.name}>{item.ability.name} </b>
-                        )
-                        )}</p>
-                </div>
-                <div>
-
-                </div>
-
+                <div className='bgwhite containercharaceter'>
+                    <p>height
+                        <br /><b>{character.height} </b></p>
+                    <p>weight
+                        <br /><b>{character.weight} </b></p>
+                    <div>
+                        <p>type
+                            <br /> {character.types?.map(item => (
+                                <b key={item.type.name}>{item.type.name} </b>
+                            )
+                            )}</p>
+                        <p>abilities
+                            <br /> {character.abilities?.map(item => (
+                                <b key={item.ability.name}>{item.ability.name} </b>
+                            )
+                            )}</p>
+                    </div>
                 </div>
             </div>
             <div className='grid-item'>
-                <h3>{character.name}</h3>
+                <h3 className='title'>{character.name}</h3>
                 <img src={character.sprites?.other.home.front_default} alt="" />
             </div>
             <div className='grid-item '>
                 <div className='bgwhite'>
-
-                <p>moves
-                    <br /> {character.moves?.map(item => (
-                        <b key={item.move.name} >{item.move.name} </b>
-                    )
-                    )}</p>
+                    <b>moves</b>
+                    <p className='containermoves'>
+                        <br /> {character.moves?.map(item => (
+                            <p className='moves' key={item.move.name} >{item.move.name} </p>
+                        )
+                        )}</p>
                 </div>
             </div>
         </div>

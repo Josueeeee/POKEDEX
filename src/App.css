@@ -370,4 +370,40 @@ p{
 .bgwhite{
   background: #fff;
   margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  box-shadow: 0px 0px 10px 1px;
+}
+.containermoves{
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.moves{
+  width: 6rem;
+  padding: 0.2rem;
+  background-color: gray;
+  margin: 0.2rem;
+  border-radius: 1rem;
+  color: white;
+}
+.title{
+  font-size: 4rem;
+  padding: 2rem;
+  color: white;
+}
+.containercharaceter{
+  display: flex;
+  justify-content: center;
+}
+.containercharaceter b{
+    background-color: #E60012;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    color: white;
+}
+.containercharaceter div{
+  padding: 1rem;
 }
