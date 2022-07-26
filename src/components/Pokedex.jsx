@@ -49,10 +49,10 @@ const Pokedex = () => {
 
     return (
         <div>
-            <div className='packeballbg'> <img src="./public/pokeball.png" className='rotate' /></div>
+            <div className='packeballbg'> <img src="https://raw.githubusercontent.com/Josueeeee/POKEDEX/main/public/pokeball.png" className='rotate' /></div>
             <div className='pokedex'>
     
-                <img src="./public/Pokédexlogo.png" width="300px" onClick={()=>navigate("/pokedex/")} ></img>
+                <img src="https://raw.githubusercontent.com/Josueeeee/POKEDEX/main/public/Pok%C3%A9dexlogo.png" width="300px" onClick={()=>navigate("/pokedex/")} ></img>
                 <div className='wl'><p>Hello  <b>{userName} </b> </p>
                    </div>
                 <div>

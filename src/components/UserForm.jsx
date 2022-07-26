@@ -19,12 +19,12 @@ const UserForm = () => {
 
     return (
         <div className='App'>
-            <div className='packeballbg'> <img src="./public/pokeball.png" className='rotate'/></div>
-            <img src="./public/Pokédexlogo.png" className='log'></img>
+            <div className='packeballbg'> <img src="https://raw.githubusercontent.com/Josueeeee/POKEDEX/main/public/pokeball.png" className='rotate'/></div>
+            <img src="https://raw.githubusercontent.com/Josueeeee/POKEDEX/main/public/Pok%C3%A9dexlogo.png" className='log'></img>
             <div className='welcome'>
                 <h2>Welcome to Pokedex <br />
                  Pokémon Trainer!</h2>
-                <img src="./public/PokémonTrainer.png" width="200"></img>
+                <img src="https://raw.githubusercontent.com/Josueeeee/POKEDEX/main/public/Pok%C3%A9monTrainer.png" width="200"></img>
             </div>
             <form onSubmit={submit}>
                 <div className='container'>

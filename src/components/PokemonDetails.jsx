@@ -66,7 +66,7 @@ const PokemonDetails = () => {
             </div>
             <div className='grid-item'>
                 <h3 className='title'>{character.name}</h3>
-                <img src={character.sprites?.other.home.front_default} alt="" />
+                <img src={character.sprites?.other.home.front_default} />
             </div>
             <div className='grid-item '>
                 <div className='bgwhite'>
